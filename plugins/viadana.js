@@ -2,7 +2,7 @@ let handler = async (m, { conn }) => {
 	conn.reply(m.chat, `╠═〘 PEMBAYARAN 〙 ═
 ╠═ Untuk Pembayaran Via DANA
 ╠➥ Ke nomer ini
-║➥ 081360482998
+║➥ 6287899922661
 ║
 ╠═〘 Fitur 〙 ═
 ║
