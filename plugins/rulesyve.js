@@ -3,20 +3,20 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kontol = `
 ╭═════〘 DONASI 〙 ═
-╠➥ DANA [6281360482998]
-╠➥ PULSA [6281360482998]
+╠➥ DANA [+6287899922661]
+╠➥ PULSA [6283113989278]
 ╰═══〘 ${namabot} 〙 ═
 
 ╭═══════〘 PRIVASI BOT 〙═══
 ➥Kebijakan Privasi
 
-1. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× tidak akan merekam data riwayat chat user.
-2. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× tidak akan menyebarkan nomor users.
-3. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× tidak akan menyimpan media yang dikirimkan oleh users.
-4. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× tidak akan menyalah gunakan data data users.
-5. Owner ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× berhak melihat data riwayat chat users.
-6. Owner ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× berhak melihat status users.
-7. Owner ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× dapat melihat riwayat chat, dan media yang dikirimkan users.
+1. K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× tidak akan merekam data riwayat chat user.
+2. K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× tidak akan menyebarkan nomor users.
+3. K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× tidak akan menyimpan media yang dikirimkan oleh users.
+4. K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× tidak akan menyalah gunakan data data users.
+5. Owner K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× berhak melihat data riwayat chat users.
+6. Owner K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× berhak melihat status users.
+7. Owner K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× dapat melihat riwayat chat, dan media yang dikirimkan users.
 ╭═══════════════════════
 ➥Peraturan Bot
 
@@ -29,10 +29,10 @@ let handler = async(m, { conn }) => {
 ➥Syarat Ketentuan Bot
 
 1. Bot akan keluar dari group apabila sudah waktunya keluar.
-2. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× dapat mem-ban users secara sepihak terlepas dari users salah atau tidak.
-3. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× *tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.*
-4. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
-5. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
+2. K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× dapat mem-ban users secara sepihak terlepas dari users salah atau tidak.
+3. K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× *tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.*
+4. K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
+5. K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜× bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
 ╰═══════════════════════
 `.trim()
   const button = {
