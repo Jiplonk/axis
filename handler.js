@@ -202,7 +202,7 @@ module.exports = {
           if (!('antiBadword' in chat)) chat.antiBadword = true
           if (!('rpg' in chat)) chat.delete = true
           if (!('nsfw' in chat)) chat.delete = false
-          if (!('antiLink' in chat)) chat.antiLink = false
+          if (!('antiLink' in chat)) chat.antiLink = true
           if (!('viewonce' in chat)) chat.viewonce = false
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
@@ -217,7 +217,7 @@ module.exports = {
           rpg: true,
           nsfw: false,
           antiBadword: true,
-          antiLink: false,
+          antiLink: true,
           viewonce: false,
         }
         
@@ -569,16 +569,16 @@ Untuk mematikan fitur ini, ketik
 global.dfail = (type, m, conn) => {
 	let name = conn.getName(m.sender)
   let msg = {
-    rowner: '⚠️Emangnya lu *OWNER* tod!',
-    owner: '⚠️Emangnya lu *OWNER BOT* tod!',
+    rowner: '⚠️Khusus *OWNER BOT* Bangsat!!',
+    owner: '⚠️Khusus *OWNER BOT* Bangsat!!',
     mods: '⚠️Emangnya lu *Moderator* tod!',
-    premium: '⚠️Emangnya lu member *PREMIUM* tod!',
+    premium: '⚠️Khusus *PREMIUM* tod!',
     group: '⚠️*Emangnya ini di *GRUP* Tod!*',
     private: '*Di pc aja yuk sayang!*',
     admin: '⚠️Emangnya lu *ADMIN* grup ya tod!',
     nsfw: 'cuma bisa diaktifkan sama dia @${global.kontak[0].split`@`[0]}',
     botAdmin: '⚠️*Naikin dulu dong BOT nya,*\n*Masa iya bot di ewe gak di naikin pangkatnya*!🤪',
-   unreg: `Daftar Dulu dek biar bisa pakai fitur lain nya\n\ncaranya ketik:\n*#daftar nama.umur*\n\nContoh: #daftar ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×.22`
+   unreg: `Daftar Dulu dek biar bisa pakai fitur lain nya\n\ncaranya ketik:\n*#daftar nama.umur*\n\nContoh: #daftar K͓̽a͓̽z͓̽u͓̽K͓̽i͓̽B͓̽o͓̽t͓̽z͓̽ ×፝֟͜×.22`
   }[type]
   if (msg) return m.reply(msg)
 }
